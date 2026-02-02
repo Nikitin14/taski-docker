@@ -11,7 +11,6 @@ jobs:
     services:
       postgres:
         image: postgres:13.10
-        # ведь эта база будет работать только во время прогона тестов
         env:
           POSTGRES_USER: django_user
           POSTGRES_PASSWORD: django_password
